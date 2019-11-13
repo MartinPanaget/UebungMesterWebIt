@@ -1,0 +1,13 @@
+.hintergrund {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.redcar {
+    position: relative;
+    top: 85px;
+    left: 375px;
+
+}
