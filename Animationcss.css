@@ -1,0 +1,51 @@
+body {
+    background-color: #333;
+}
+
+/*.box {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+} */
+
+@keyframes myAnimation {
+    0% { background-color: white; left: 0px; top: 0px;}
+    25% { background-color: red; left: 200px; top: 0px;}
+    50% { background-color: blue; left: 200px; top: 200px;}
+    75% { background-color: green; left: 0px; top: 200px;}
+    100% { background-color: white; left: 0px; top: 0px;}
+}
+
+.Haus {
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: Fundament;
+    animation-duration: 5s;
+} 
+
+.Dach {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid rgb(160, 35, 18);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: relative;
+    animation-name: Dach;
+    animation-duration: 5s;
+}
+
+ @keyframes Fundament {
+    0%{ left: 1000px; top: 0px;}
+    100%{ left: 0px; top: 0px;}
+}
+
+@keyframes Dach {
+    0%{ left: 500px; top: 500px;}
+    100%{ left: 0px; top: 0px;}
+}
+
